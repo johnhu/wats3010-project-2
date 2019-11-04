@@ -56,6 +56,10 @@ p {
 }
 
 /*Style brand*/
+.brand {
+    padding-left: 12px;
+}/*change: padding on left, design choice*/
+
 .brand a {
     color: var(--brand-color);
     text-decoration: none;
@@ -338,8 +342,7 @@ icon-bar ul {
 /* Style math presentation on fibonacci.html */
 .math {
     margin: 20px auto;
-    padding: 10px 20px;
-    /*changed 30 to 20, looks better*/
+    padding: 10px 20px;/*change: 30 to 20px, design choice*/
     width: 200px;
     background-color: var(--math-bg-color);
     color: var(--math-color);
